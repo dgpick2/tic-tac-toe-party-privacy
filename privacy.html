@@ -57,7 +57,8 @@
   app. The app does not upload backups to the developer. Clipboard contents
   may be accessible to the operating system or other apps according to your
   device settings, so do not share a backup that contains information you want
-  to keep private.</p>
+  to keep private. Portable backups exclude Game Center player identifiers,
+  leaderboard totals, and pending Game Center reports.</p>
 
   <h2>In-app purchases</h2>
   <p>Pro purchases and subscriptions are processed by Apple through StoreKit.
@@ -71,17 +72,32 @@
   the App Store subscription settings. The app includes a Restore Purchases
   option for eligible Apple transactions.</p>
 
+  <h2>Game Center (optional)</h2>
+  <p>Leaderboards, achievements, and friend notifications are provided by
+  Apple's Game Center. When Game Center is enabled and signed in, qualifying
+  daily-completion totals and achievements are submitted to Apple under your Game
+  Center account. The app receives your Game Center display alias and an
+  Apple-scoped player identifier. It keeps the scoped identifier locally so
+  queued reports cannot cross accounts; the alias is used only to reflect the
+  current sign-in state and is not sent to the developer. Pass-the-phone player
+  names and results are not submitted to Game Center.
+  Apple's handling of Game Center information is covered by <a
+  href="https://www.apple.com/legal/privacy/en-ww/">Apple's Privacy Policy</a>.</p>
+
   <h2>Information we do not collect</h2>
-  <p>The app does not use analytics, advertising networks, or tracking SDKs. We
-  do not collect or receive your location, contacts, photos, camera or
-  microphone data, messages, browsing history, or gameplay activity. We do not
-  knowingly collect information through the app for advertising or marketing.
-  The app has no developer-operated online account or backend service.</p>
+  <p>The app does not use analytics, advertising networks, or tracking SDKs.
+  The developer does not collect or receive your location, contacts, photos,
+  camera or microphone data, messages, browsing history, player names, or
+  gameplay history. Apple receives only the purchase and Game Center data
+  described above under its own services. We do not knowingly collect
+  information through the app for advertising or marketing. The app has no
+  developer-operated online account or backend service.</p>
 
   <h2>Third-party services and links</h2>
   <p>Apple's StoreKit is used for Pro purchases and subscription entitlement
-  checks. Apple handles the information required for those transactions under
-  its own privacy practices.</p>
+  checks. Apple's GameKit is used, only when you opt in via Game Center, for
+  leaderboards and achievements. Apple handles the information required for
+  those services under its own privacy practices.</p>
   <p>The app may provide links to this policy, Apple's standard Licensed
   Application EULA, and Apple's websites. When you open an external link, your
   device connects to the linked website, which may process standard technical
@@ -117,6 +133,6 @@
 
   <h2>Contact</h2>
   <p>Questions about this policy or the app's privacy practices? Contact
-  <a href="mailto:customersupport@mythoughtwell.com">Customer Support</a>.</p>
+  <a href="mailto:dgpick2@gmail.com">dgpick2@gmail.com</a>.</p>
 </body>
 </html>
